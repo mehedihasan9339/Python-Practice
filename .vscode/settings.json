@@ -1,0 +1,8 @@
+{
+    "editor.codeLensFontSize": 0,
+    "editor.fontSize": 30,
+    "editor.inlayHints.fontSize": 0,
+    "debug.console.fontSize": 20,
+    "terminal.integrated.fontSize": 20,
+    "scm.inputFontSize": 20
+}
