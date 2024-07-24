@@ -7,6 +7,9 @@ class Point:
     def __add__(self, other):
         return Point(self.x + other.x, self.y + other.y)
     
+    def __sub__(self, other):
+        return Point(self.x - other.x, self.y - other.y)
+
 
 point = Point(10, 20)
 other = Point(1, 2)
@@ -15,4 +18,7 @@ print(point + other)
 
 combined = point + other
 print(f"({combined.x}, {combined.y})") # (11, 22)
+
+difference = point - other
+print(f"({difference.x}, {difference.y})") # (9, 18)
 
